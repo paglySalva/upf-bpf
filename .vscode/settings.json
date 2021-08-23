@@ -92,9 +92,9 @@
     "csignal": "cpp",
     "gtpu.h": "c",
     "fteid.h": "c",
-    "scoped_allocator": "cpp"
+    "scoped_allocator": "cpp",
+    "next_prog_rule_map.h": "c"
   },
-
   "git.ignoreLimitWarning": true,
   "python.autoComplete.extraPaths": [
     "${workspaceFolder}/tests/trex/trex_client/interactive"
@@ -103,6 +103,10 @@
   "cSpell.enabled": true,
   "search.exclude": {
     "**/extern/**": true,
+    "**/package/**": true
+  },
+  "files.exclude": {
+    "**/package/**": true
   },
   "python.analysis.extraPaths": [
     "${workspaceFolder}/tests/trex/trex_client/interactive",
@@ -116,5 +120,4 @@
     "test"
   ],
   "jupyter.jupyterServerType": "local"
-
 }
