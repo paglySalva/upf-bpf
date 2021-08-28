@@ -6,7 +6,7 @@
       "farId": 200,
       "outerHeaderRemoval": "OUTER_HEADER_REMOVAL_UDP_IPV4",
       "pdi": {
-        "teid": 100,
+        "teid": 0,
         "sourceInterface": "INTERFACE_VALUE_CORE",
         "ueIPAddress": "10.1.3.27"
       }
